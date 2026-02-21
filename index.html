@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netking Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-left">
+        <div class="hamburger" id="hamburger-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+
+        <a href="index.html" class="logo">NETKING</a>
+
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="tvshows.html">TV Shows</a></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="newpopular.html">New & Popular</a></li>
+          <li><a href="mylist.html">My List</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-right">
+        <i class="fas fa-search nav-icon"></i>
+        <i class="fas fa-bell nav-icon"></i>
+        <div class="nav-profile">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+            alt="Profile"
+          />
+          <i class="fas fa-caret-down"></i>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="tvshows.html">TV Shows</a>
+        <a href="movies.html">Movies</a>
+        <a href="newpopular.html">New & Popular</a>
+        <a href="mylist.html">My List</a>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">STRANGER THINGS</h1>
+        <div class="hero-meta">
+          <span class="match-score">98% Match</span>
+          <span class="year">2024</span>
+          <span class="age-rating">16+</span>
+          <span class="seasons">5 Seasons</span>
+        </div>
+        <p class="hero-desc">
+          When a young boy vanishes, a small town uncovers a mystery involving
+          secret experiments, terrifying supernatural forces, and one strange
+          little girl.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn btn-play"><i class="fas fa-play"></i> Play</button>
+          <button class="btn btn-info">
+            <i class="fas fa-info-circle"></i> More Info
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <div class="row">
+        <h2 class="row-title">Trending Now</h2>
+        <div class="row-posters">
+          <img
+            class="poster"
+            src="https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg"
+            alt="Joker"
+          />
+          <img
+            class="poster"
+            src="https://image.tmdb.org/t/p/w500/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg"
+            alt="The Dark Knight"
+          />
+          <img
+            class="poster"
+            src="https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
+            alt="Spider-Man No Way Home"
+          />
+          <img
+            class="poster"
+            src="https://image.tmdb.org/t/p/w500/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg"
+            alt="Interstellar"
+          />
+          <img
+            class="poster"
+            src="https://image.tmdb.org/t/p/w500/6agKYU5IQFpuDyUYPu39w7UCRrJ.jpg"
+            alt="Avengers Endgame"
+          />
+          <img
+            class="poster"
+            src="https://image.tmdb.org/t/p/w500/5KCVkau1HEl7ZzfPsKAPM0sMiKc.jpg"
+            alt="Inception"
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <h2 class="row-title">Top 10 TV Shows in the U.S. Today</h2>
+        <div class="row-posters top-10-row">
+          <div class="rank-card">
+            <span class="rank-number">1</span>
+            <img
+              class="poster rank-poster"
+              src="https://images.unsplash.com/photo-1608889175123-8ee362201f81?w=500&q=80"
+              alt="Rank 1"
+            />
+          </div>
+          <div class="rank-card">
+            <span class="rank-number">2</span>
+            <img
+              class="poster rank-poster"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuw8qkcpumC8r_JhXgMWeESWvMy_7X5TcuRw&s"
+              alt="Rank 2"
+            />
+          </div>
+          <div class="rank-card">
+            <span class="rank-number">3</span>
+            <img
+              class="poster rank-poster"
+              src="https://m.media-amazon.com/images/M/MV5BODY2MTAzOTQ4M15BMl5BanBnXkFtZTgwNzg5MTE0MjI@._V1_.jpg"
+              alt="Rank 3"
+            />
+          </div>
+          <div class="rank-card">
+            <span class="rank-number">4</span>
+            <img
+              class="poster rank-poster"
+              src="https://avatars.githubusercontent.com/u/3239187?v=4"
+              alt="Rank 4"
+            />
+          </div>
+          <div class="rank-card">
+            <span class="rank-number">5</span>
+            <img
+              class="poster rank-poster"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0nN4hqByN-SZrAT9tbOLZDjazCwsHFHaMmQ&s"
+              alt="Rank 4"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <h2 class="row-title">Action & Adventure</h2>
+        <div class="row-posters">
+          <img
+            class="poster"
+            src="https://qqcdnpictest.mxplay.com/pic/cc1f9610b1cc638cf9b60f305ee1b4d6/en/2x3/312x468/test_pic1759756606210_badged_1769403613146.webp"
+            alt="Movie"
+          />
+          <img
+            class="poster"
+            src="https://m.media-amazon.com/images/M/MV5BOWU2NjY5NWQtMjdkZi00ODJlLThkZTAtMzFlYmJmMGE2NjZkXkEyXkFqcGc@._V1_.jpg"
+            alt="Movie"
+          />
+          <img
+            class="poster"
+            src="https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaVDQoEmV7wCSNoGswVHNWBWOOBbs54lvM_-5JUeN_RDdBV9kvA6pR5Lb0FL3eQ31OBSsnhpSHipHTf7iq9hHih0rg_2QhumVSCC.jpg?r=f67"
+            alt="Movie"
+          />
+          <img
+            class="poster"
+            src="https://upload.wikimedia.org/wikipedia/en/3/3e/His_And_Hers_Netflix_series_poster.jpeg"
+            alt="Movie"
+          />
+          <img
+            class="poster"
+            src="https://lumiere-a.akamaihd.net/v1/images/alladin_600x450_moviespg_mobile_7_d097b99b.jpeg?region=0,0,600,450"
+            alt="Movie"
+          />
+            <img
+            class="poster"
+            src="https://qqcdnpictest.mxplay.com/pic/cf4148eed2c0bbdde82aa8e3164f91c6/en/2x3/312x468/test_pic1648186044448.webp"
+            alt="Movie"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-social">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#">Audio Description</a></li>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Gift Cards</a></li>
+        <li><a href="#">Media Center</a></li>
+        <li><a href="#">Investor Relations</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Legal Notices</a></li>
+        <li><a href="#">Cookie Preferences</a></li>
+        <li><a href="#">Corporate Information</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <button class="service-code-btn">Service Code</button>
+      <div class="copyright">&copy; 2024 Netflix Clone, Inc.</div>
+    </footer>
+
+    <script>
+      // Navbar Scroll Effect
+      const nav = document.querySelector(".navbar");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 100) {
+          nav.classList.add("nav-black");
+        } else {
+          nav.classList.remove("nav-black");
+        }
+      });
+
+      // Hamburger Menu Toggle
+      const hamburgerBtn = document.getElementById("hamburger-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      hamburgerBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("active");
+      });
+
+      // Close mobile menu when clicking a link
+      document.querySelectorAll(".mobile-menu a").forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.remove("active");
+        });
+      });
+    </script>
+  </body>
+</html> 
